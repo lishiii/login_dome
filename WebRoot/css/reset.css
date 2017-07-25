@@ -1,0 +1,73 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ui,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+form,
+a,
+p,
+textarea {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    /*块状元素* crtl+/ 设置内容为注释*/
+}
+
+img {
+    border: none;
+    display: block;
+}
+
+.clearfloat {
+    zoom: 1;
+}
+
+.clearfloat:after {
+    display: block;
+    clear: both;
+    content: "";
+    visibility: hidden;
+    height: 0;
+}
+
+a:link {
+    color: #2ED074
+}
+
+a:visited {
+    color: #2ED074
+}
+
+a:hover {
+    color: #313DCD
+}
+
+a:active {
+    color: #000000
+}
+
+
+/*ctel+shift+f 使代码格式化*/

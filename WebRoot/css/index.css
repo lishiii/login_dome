@@ -1,0 +1,255 @@
+.index-banner {
+    position: relative;
+    background: #3B3B3B;
+}
+
+.index-banner-bg {
+    position: relative;
+    height: 570px;
+    overflow: hidden;
+}
+
+.index-banner-bg img {
+    margin: 0 auto;
+}
+
+.index-banner-text {
+    margin: 0 auto;
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    margin-left: -380px;
+    color: #fff;
+}
+
+.index-banner-text img {
+    margin: 0 auto；
+}
+
+
+/*在使用居中对齐时，如果DIV里有块级元素那文本居中时要把P标签换成A标签，定义中A标签内的内容默认为块级元素*/
+
+.index-banner-text .text-info {
+    margin-top: 18px;
+    text-align: center;
+}
+
+.index-banner-text .line-l {
+    display: inline-block;
+    width: 40px;
+    border-top: 1px solid #fff;
+    margin-right: 26px;
+    vertical-align: middle;
+}
+
+.index-banner-text .line-r {
+    display: inline-block;
+    width: 40px;
+    border-top: 1px solid #fff;
+    margin-left: 26px;
+    vertical-align: middle;
+}
+
+.index-menu {
+    position: relative;
+    margin: 0 auto;
+    border-top: 4px solid #f34949;
+    width: 1500px;
+}
+
+.index-menu .menu-txt {
+    position: relative;
+    line-height: 62px;
+    text-align: center;
+    margin: 0 auto;
+    width: 156px;
+    font-size: 20px;
+    height: 72px;
+    background: #f34949;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.menu-txt:after {
+    position: absolute;
+    content: "";
+    height: 0;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    border-left: 78px solid transparent;
+    border-right: 78px solid transparent;
+    border-bottom: 10px solid #fff;
+}
+
+.menu-title {
+    float: left;
+    width: 230px;
+    margin-bottom: 8px;
+}
+
+.menu-price {
+    float: right;
+    margin-left: 40px;
+    color: #000;
+}
+
+.menu-item {
+    float: left;
+    width: 520px;
+    margin-bottom: 56px;
+    margin-right: 60px;
+}
+
+.menu-line {
+    margin-top: 10px;
+    width: 192px;
+    float: right;
+    border-top: 2px solid #C0C0C0;
+}
+
+.common {
+    margin-top: 4px;
+    font-size: 10px;
+    color: #A0A0A0
+}
+
+
+/*解决了左右布局用margin布局时多出的一次magrin长度在原
+容器的宽度下加上margin的一次值就可实现布局
+ps：因为自己还原教程时没有用到UL（所有li即div menu-item内的内容）+li布局(title+price+line)*/
+
+.index-list .menu-item ul {
+    width: 1160px;
+}
+
+.index-list .menu-item {
+    overflow: hidden;
+}
+
+
+/*空盒子布局临时想到的方法，不知道后面维护网站是否有问题*/
+
+.empty-box {
+    float: left;
+    height: 45.5px;
+    width: 60px;
+}
+
+.index-list ul {
+    width: 1160px;
+}
+
+.index-list {
+    overflow: hidden;
+}
+
+.loadmore {
+    margin: 34px auto;
+    width: 136px;
+    height: 36px;
+    line-height: 36px;
+    border: solid 2px #A0A0A0;
+}
+
+.loadmore-txt {
+    width: 136px;
+    position: relative;
+    display: block;
+    vertical-align: middle;
+    text-align: center;
+    color: #A0A0A0;
+}
+
+.index-dish-img {
+    width: 230px;
+}
+
+.index-dish {
+    width: 230px;
+    float: left;
+    margin-right: 60px;
+}
+
+.dish-tittle {
+    margin-bottom: 78px;
+}
+
+.index-dish-tittle {
+    widows: 1100px;
+}
+
+.index-dish-line {
+    position: absolute;
+    top: 15px;
+    left: 204px;
+    width: 200px;
+    border-top: 1px solid #e5e3e3;
+}
+
+.index-dishmenu ul {
+    width: 1160px;
+    overflow: hidden;
+}
+
+.dish-txt {
+    margin-top: 28px;
+    float: left;
+}
+
+.dish-price {
+    margin-top: 28px;
+    float: right;
+}
+
+.index-dish-star {
+    float: left;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.index-dish-mark {
+    float: left;
+}
+
+.index-dish-info {
+    width: 230px;
+    float: left;
+}
+
+.img-show {
+    float: left;
+    margin-top: 200px;
+    margin-bottom: 130px;
+}
+
+.index-dishmenu {
+    margin-bottom: 200px;
+}
+
+.index-photo {
+    height: 380px;
+    overflow: hidden;
+}
+
+.index-photo-float {
+    float: left;
+}
+
+.index-photo-tittle {
+    width: 1100px;
+    margin-bottom: 130px;
+}
+
+.index-tittle-line {
+    position: absolute;
+    top: 15px;
+    left: 180px;
+    width: 200px;
+    border-top: 1px solid #e5e3e3;
+}
+
+.float-l {
+    display: block;
+    float: left;
+}
